@@ -1,6 +1,6 @@
 /* Estilos gerais do footer */
 footer {
-    background-color: #333;
+    background-color: #8d422e;
     color: #fff;
     padding: 20px 0;
 }
@@ -35,6 +35,17 @@ ul.social-media li {
     display: inline-block;
     margin-right: 10px;
     font-size: 1.2em;
+}
+/* Estilo para remover sublinhado e cor padrão de links */
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Adicionando um estilo diferente para os links ao passar o mouse, se desejado */
+ul li a:hover {
+    color: aqua;
+    text-decoration: underline;
 }
 
 /* Estilos para formulário de inscrição na newsletter */

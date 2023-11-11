@@ -1,5 +1,5 @@
 header {
-    background-color: #333;
+    background-color: #701e06;
     color: #fff;
     padding: 10px 20px;
     display: flex;
@@ -8,7 +8,8 @@ header {
 }
 
 .logo img {
-    width: 150px; /* Ajuste conforme necessário */
+    width: 100px; /* Ajuste conforme necessário */
+    border-radius: 24px;
 }
 
 nav ul {
@@ -27,7 +28,19 @@ nav a {
     font-size: 1.2em;
 }
 
-/* Estilos para dispositivos móveis */
+/* Estilo para hover nas âncoras */
+nav a:hover {
+    text-decoration: underline;
+    color: #ffeecc; /* Cor de fundo mais suave ao passar o mouse */
+}
+
+/* Ajuste na cor de fundo do header */
+header {
+    background-color: #8d422e; /* Cor mais suave para o header */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+/* Estilo para dispositivos móveis */
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
